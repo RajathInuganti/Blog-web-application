@@ -1,0 +1,15 @@
+<% include partials/header %>
+
+<h1>
+	Registration :: Sign Up
+</h1>
+
+<form action="/register" method="POST">
+	<input type="text" name="username" placeholder="username" required>
+	<input type="password" name="password" placeholder="password" required>
+	<button class="btn btn-success">
+		Submit
+	</button>
+</form>
+
+<% include partials/footer %>
